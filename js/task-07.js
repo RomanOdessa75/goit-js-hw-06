@@ -3,7 +3,7 @@ const refs = {
   spanEl: document.querySelector("#text"),
 };
 
-refs.formEl.addEventListener("change", onSliderChange);
+refs.formEl.addEventListener("input", onSliderChange);
 
 function onSliderChange(event) {
   refs.spanEl.style.fontSize = event.currentTarget.value + "px";
