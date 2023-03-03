@@ -19,6 +19,6 @@ ingredients.forEach((ingredient) => {
   listArray.push(listEl);
 
   console.log(listArray);
-
-  ulEl.append(...listArray);
 });
+
+ulEl.append(...listArray);
